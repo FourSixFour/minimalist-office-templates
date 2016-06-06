@@ -1,12 +1,18 @@
 \documentclass[10pt, a4paper, oneside]{article}
 
-\usepackage{setspace} % line spacing \begin{spacing}{2.5} end{spacing}
+% standard incantations
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+
+% layout
+\usepackage{setspace}
 \usepackage{xcolor, color, tikz, hyperref}
 \usepackage[tmargin=0.75in]{geometry}
-\usepackage{listings} % source code
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[english]{babel} % language setting
+
+% programming
+\usepackage{listings}
 
 \begin{document}
 
@@ -46,7 +52,7 @@
 
 \bibitem{book-ref}
   Author,
-  "Title of the chapter," in 
+  ``Title of the chapter,'' in 
   \emph{title of the book},
   xth ed.
   City of publisher,
